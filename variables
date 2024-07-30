@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main() {
+    
+    int age = 19; // int stores whole number
+    double gpa = 4.5; // double stores number with decimals
+    char vitamin = 'C'; //char stores only one carachter exp. "$", "Q" .. 
+    bool student = true; //true or false
+    std::string name = "Izzatbek";
+
+    std::cout << "age is " << age << "\n";
+    std::cout << "gpa is " << gpa << "\n";
+    std::cout << "vitamin is " << vitamin << "\n";
+    std::cout << "is a student " << student << "\n";
+    std::cout << "My name is " << name;
+
+    return 0;
+}
